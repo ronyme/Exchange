@@ -164,7 +164,7 @@ public class ExchangeGui extends JFrame {
 			"USD ", "Euro", "Pound", "Lek"
 		};
 
-		JComboBox comboBox = new JComboBox(x);
+		final JComboBox comboBox = new JComboBox(x);
 
 		comboBox.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
@@ -180,7 +180,7 @@ public class ExchangeGui extends JFrame {
 		lblKursiIKembimit.setBounds(289, 57, 135, 14);
 		contentPane.add(lblKursiIKembimit);
 
-		JComboBox comboBox_1 = new JComboBox(x);
+		final JComboBox comboBox_1 = new JComboBox(x);
 
 		comboBox_1.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
